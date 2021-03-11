@@ -1,0 +1,670 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "applicationType",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "appVersion",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bounce",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "browserFamily",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "browserMajorVersion",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "browserMonitorId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "browserMonitorName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "browserType",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "carrier",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "city",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "clientType",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "connectionType",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "continent",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "country",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "device",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "displayResolution",
+    "type": "STRING"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "applicationId",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "internalApplicationId",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "key",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "value",
+        "type": "FLOAT"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "doubleProperties",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "duration",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "endReason",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "endTime",
+    "type": "INTEGER"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "application",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "internalApplicationId",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "name",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "startTime",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "type",
+        "type": "STRING"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "events",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "hasCrash",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "hasSessionReplay",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "internalUserId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ip",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "isp",
+    "type": "STRING"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "applicationId",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "internalApplicationId",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "key",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "value",
+        "type": "INTEGER"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "longProperties",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "manufacturer",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "matchingConversionGoalsCount",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "networkTechnology",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "newUser",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "numberOfRageClicks",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "osFamily",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "osVersion",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "region",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "replayEnd",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "replayStart",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "screenHeight",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "screenOrientation",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "screenWidth",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "startTime",
+    "type": "INTEGER"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "applicationId",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "internalApplicationId",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "key",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "value",
+        "type": "STRING"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "stringProperties",
+    "type": "RECORD"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "name",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "sequenceNumber",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "syntheticEventId",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "timestamp",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "type",
+        "type": "STRING"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "syntheticEvents",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "tenantId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "totalErrorCount",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "totalLicenseCreditCount",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "userActionCount",
+    "type": "INTEGER"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "apdexCategory",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "application",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "cdnBusyTime",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "cdnResources",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "cumulativeLayoutShift",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "customErrorCount",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "documentInteractiveTime",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "domain",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "domCompleteTime",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "domContentLoadedTime",
+        "type": "INTEGER"
+      },
+      {
+        "fields": [
+          {
+            "mode": "NULLABLE",
+            "name": "key",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "value",
+            "type": "FLOAT"
+          }
+        ],
+        "mode": "REPEATED",
+        "name": "doubleProperties",
+        "type": "RECORD"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "duration",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "endTime",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "errorCount",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "failedImages",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "failedXhrRequests",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "firstInputDelay",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "firstPartyBusyTime",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "firstPartyResources",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "frontendTime",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "hasCrash",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "httpRequestsWithErrors",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "internalApplicationId",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "internalKeyUserActionId",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "javascriptErrorCount",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "keyUserAction",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "largestContentfulPaint",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "loadEventEnd",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "loadEventStart",
+        "type": "INTEGER"
+      },
+      {
+        "fields": [
+          {
+            "mode": "NULLABLE",
+            "name": "key",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "value",
+            "type": "INTEGER"
+          }
+        ],
+        "mode": "REPEATED",
+        "name": "longProperties",
+        "type": "RECORD"
+      },
+      {
+        "mode": "REPEATED",
+        "name": "matchingConversionGoals",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "name",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "navigationStart",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "networkTime",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "requestErrorCount",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "requestStart",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "responseEnd",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "responseStart",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "serverTime",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "speedIndex",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "startTime",
+        "type": "INTEGER"
+      },
+      {
+        "fields": [
+          {
+            "mode": "NULLABLE",
+            "name": "key",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "value",
+            "type": "STRING"
+          }
+        ],
+        "mode": "REPEATED",
+        "name": "stringProperties",
+        "type": "RECORD"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "syntheticEvent",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "syntheticEventId",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "targetUrl",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "thirdPartyBusyTime",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "thirdPartyResources",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "type",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "userActionPropertyCount",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "visuallyCompleteTime",
+        "type": "INTEGER"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "userActions",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "userExperienceScore",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "userId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "userSessionId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "userType",
+    "type": "STRING"
+  }
+]
